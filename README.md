@@ -2,9 +2,9 @@
 ## Description
 
 A dockerized version of tp-wik-dps-tp01.
-It contains two docker files :
-- one for the first challenge (typescript and Dockerfile)
-- one for the second challenge (typescript2 and Dockerfile.2)
+This repo contains two services :
+- typescript for the first challenge (Dockerfile) (vuln report trivy.txt)
+- typescript2 for the second challenge (Dockerfile.2) (vuln report trivy2.txt)
 
 ## Run
 ### Software needed
