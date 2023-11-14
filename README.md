@@ -1,30 +1,21 @@
-# tp-wik-dps-tp01 - Typescript version
-## Build & Run
+# tp-wik-dps-tp02
+## Description
+
+A dockerized version of tp-wik-dps-tp01.
+It contains two docker files :
+- one for the first challenge (typescript and Dockerfile)
+- one for the second challenge (typescript2 and Dockerfile.2)
+
+## Run
 ### Software needed
 ```
-node, npm, git
+docker, git
 ```
 1. Clone the repository
 ```
 git clone https://github.com/arpaflow/tp-wik-dps-tp01.git
 ```
-2. Install dependencies
+2. Launch services with docker compose
 ```
-npm install
-```
-3. Build
-```
-npx tsc
-```
-4. Export the PING_LISTEN_PORT environnement variable with the port of your choice
-```
-export PING_LISTEN_PORT=<port>
-```
-5. Run
-```
-node build/index.js
-```
-6. Test
-```
-curl http://localhost:<port>/ping
+docker compose up -d
 ```
