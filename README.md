@@ -9,13 +9,18 @@ This repo contains two services :
 ## Run
 ### Software needed
 ```
-docker, git
+docker, git, curl
 ```
 1. Clone the repository
 ```
-git clone https://github.com/arpaflow/tp-wik-dps-tp01.git
+git clone https://github.com/arpaflow/tp-wik-dps-tp02.git
 ```
 2. Launch services with docker compose
 ```
 docker compose up -d
+```
+### Try it
+1. Go to http://localhost:8080/ping
+```
+curl http://localhost:8080/ping
 ```
